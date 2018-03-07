@@ -6,7 +6,7 @@
 int main(int argc, char * argv[])
 {
 
-	if( argc < 5)
+	if( argc < 5) //plithos orismatwn
 	{
 		printf("La8os kata thn eisagwgh stoixeiwn. Termatismos...\n");
 		exit(3);
@@ -18,14 +18,14 @@ int main(int argc, char * argv[])
 	fp1 = fopen("text1","r");
 	fp2 = fopen("text2","r");
 
-	strcpy(methodosAntikatastashs,argv[1]);
-	plh8osSelidwnMnhmhs = atoi(argv[2]);
+	strcpy(methodosAntikatastashs,argv[1]);//allazoume to plithos
+	plh8osSelidwnMnhmhs = atoi(argv[2]); 
 	q = atoi(argv[3]);
 	megistoPlh8osDieu8ynsewn = atoi(argv[4]);
 
 	
 
-	printf("Dwsate ta ekseis orimsata\n");
+	printf("Dwsate ta ekseis orimsata\n"); //elegxos
 	printf("Me8odos antikatastashs : %s\n",methodosAntikatastashs);
 	printf("Plh8os selidwn sth mnhmh : %d\n",plh8osSelidwnMnhmhs);
 	printf("q : %d\n",q);
@@ -67,6 +67,8 @@ int main(int argc, char * argv[])
 			//		printf("La8os kata thn eisagwgh stoixeiwn. Termatismos...\n");
 			//		exit(3);			
 			//		}
+
+		//https://stackoverflow.com/questions/3501338/c-read-file-line-by-line
 
 		}
 
